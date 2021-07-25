@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1600px;
+    background: #FEF8F5;
+}
+
+header {
+    background: url(img/Compo.png);
+}
+
+.header-top {
+    position: relative;
+    width: 100%;
+    height: 1186px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    width: 212px;
+    height: 50px;
+    left: 240px;
+    top: 50px;
+
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 604px;
+    height: 60px;
+    left: 710px;
+    top: 50px;
+
+}
+
+.menu-item {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    z-index: 10;
+
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.menu-item:last-child a {
+
+    display: block;
+    width: 158px;
+    height: 60px;
+    /* КАК разместить надпись CONTACT US по центру?? сделал отступом но чувствую что то есть еще */
+    padding-top: 24px;
+    background: #EE4D47;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.top-text {
+    position: absolute;
+    width: 741px;
+    height: 300px;
+    left: 240px;
+    top: 190px;
+    font-family: DM Serif Display;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.get {
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 240px;
+    top: 550px;
+    background: #EE4D47;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.get-star {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.arrow {
+    width: 29.5px;
+    height: 12.35px;
+    left: 406px;
+    top: 574px;
+    background: #FFFFFF;
+    background: url(icon/arowR.svg);
+}
+
+main {}
+
+.about-how {}
+
+.about {
+
+    display: flex;
+    margin: 50px 0 50px 0;
+    width: 1270px;
+    margin: 50px auto;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    padding-right: 100px;
+
+
+}
+
+.about-text h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    letter-spacing: 0.1em;
+
+    color: #EE4D47;
+}
+
+.about-text p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    padding-right: 150px;
+    color: #402B2B;
+}
+
+.about-text-down {
+
+    width: 570px;
+    height: 160px;
+    padding: 30px 55px;
+    background: rgba(252, 221, 212, 0.57);
+    opacity: 1;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    border-left: 10px solid #ED4D47;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-decoration-color: black;
+}
+
+
+.how {
+
+    display: flex;
+    margin: 50px 0 50px 0;
+    width: 1470px;
+    margin: 50px auto;
+
+}
+
+.how-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+
+.how-text h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #EE4D47;
+}
+
+.how-text p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    padding-right: 100px;
+    color: #402B2B;
+}
+
+.footer-down {
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.303);
+    
+}
+
+.footer-down p {
+    display: block;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #402B2B;
+}
+
+.questions {
+    width: 1600px;
+    background-image: url(img/ComponentQ.png);
+    height: 1500px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.questions {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+.questions-title {
+    margin-left: 240px;
+    width: 550px;
+    height: 294.16px;
+}
+
+.questions-title h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 100px;
+    letter-spacing: 0.1em;
+
+    color: #EE4D47;
+
+}
+
+.questions-title p {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    color: #402B2B;
+}
+
+.questions-block {
+    margin-left: 240px;
+    width: 1150px;
+    display: flex;
+
+}
+
+.questions-left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.questions-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.questions-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    margin: 10px 0 0 20px;
+
+}
+
+.questions-item p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 500px;
+    text-align: left;
+    padding: 0 30px;
+    color: #402B2B;
+}
+
+.questions-right>.questions-item:last-child {
+    background: rgba(237, 77, 71, 0.276);
+    border-radius: 10px;
+}
+
+.questions-right>.questions-item:last-child p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+
+}
